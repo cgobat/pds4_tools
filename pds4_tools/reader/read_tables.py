@@ -471,6 +471,7 @@ def _get_delimited_records_and_start_bytes(records, table_structure, table_manif
     field_delimiter = {'comma': b',',
                        'horizontal tab': b'\t',
                        'semicolon': b';',
+                       'space': b' ',
                        'vertical bar': b'|'
                       }.get(delimiter_name, None)
 
